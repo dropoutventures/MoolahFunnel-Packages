@@ -1,0 +1,114 @@
+div.ex_pop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255,255,255,0.9);
+    z-index:9999;
+    display:none;
+}
+div.ex_pop.open{
+    display:block;
+}
+div.ex_pop > div.ex_pop_form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 420px;
+    height: 400px;
+    box-sizing:border-box;
+    border:2px solid #999;
+    background:#fff;
+    padding:0px 30px;
+}
+div.ex_pop > div.ex_pop_form> div.ex_pop_logo{
+    height:60px;
+    padding:10px;
+    text-align:center;
+}
+div.ex_pop > div.ex_pop_form> div.ex_pop_logo>img{
+    height:40px;
+    margin:0px auto;
+}
+div.ex_pop > div.ex_pop_form> div.ex_pop_title{
+    padding:10px;
+    padding-bottom:0px;
+}
+div.ex_pop > div.ex_pop_form> div.ex_pop_title>span[class^='ex_pop_title_row_']{
+    display:block;
+    width:100%;
+    text-align:center;
+}
+div.ex_pop > div.ex_pop_form> div.ex_pop_title>span[class^='ex_pop_title_row_']>span[class^='ex_pop_title_cell_']{
+    color:#000;
+    font-size:20px;
+    font-weight:bolder;
+    padding:0px;
+}
+div.ex_pop > div.ex_pop_form> div.ex_pop_promo{
+    padding:10px;
+    padding-top:0px;
+}
+div.ex_pop > div.ex_pop_form> div.ex_pop_promo>span[class^='ex_pop_promo_row_']{
+    display:block;
+    width:100%;
+    text-align:center;
+}
+div.ex_pop > div.ex_pop_form> div.ex_pop_promo>span[class^='ex_pop_promo_row_']>span[class^='ex_pop_promo_cell_']{
+    color:green;
+    font-size:20px;
+}
+div.ex_pop > div.ex_pop_form> div.ex_pop_detail{
+    padding:3px;
+}
+div.ex_pop > div.ex_pop_form> div.ex_pop_detail>span[class^='ex_pop_detail_row_']{
+    display:block;
+    width:100%;
+    text-align:center;
+}
+div.ex_pop > div.ex_pop_form> div.ex_pop_detail>span[class^='ex_pop_detail_row_']>span[class^='ex_pop_detail_cell_']{
+    color:#000;
+    font-size:12px;
+}
+div.ex_pop > div.ex_pop_form> div.ex_pop_input{
+    padding:3px;
+}
+div.ex_pop > div.ex_pop_form> div.ex_pop_input>input[type='text']{
+    width:100%;
+    padding:3px 9px;
+}
+div.ex_pop > div.ex_pop_form> div.ex_pop_input>button.ex_pop_btn{
+    margin:6px 0px;
+    width:100%;
+    height:40px;
+    border:1px solid #ccc;
+    border-radius:3px;
+    box-sizing:border-box;
+    background-color: #a4d831;
+    color: #fff;
+    background-image: linear-gradient(to bottom, #a4d831 0%, #a4d831 30% ,#69be1e 100%);
+}
+div.ex_pop > div.ex_pop_form> div.ex_pop_input>button.ex_pop_btn:before{
+    content: '\f061';
+    font-family: fontawesome;
+    font-weight: 900;
+    display: inline-block;
+    width: 20px;
+    font-size: 14px;
+    color: red;
+    animation: bounceRight 2s infinite;
+}
+div.ex_pop > div.ex_pop_form> a.ex_pop_nothankyou{
+    display: block;
+    font-size: 11px;
+    color: #999;
+    margin: 0px auto;
+    text-decoration: underline;
+    cursor: pointer;
+    width: fit-content;
+}
+.hidden{
+	display:none;
+}

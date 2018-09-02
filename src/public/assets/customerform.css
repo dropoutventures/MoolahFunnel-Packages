@@ -1,0 +1,67 @@
+div.widget-CustomerInfor{
+    padding:0px;
+}
+div.widget-CustomerInfor > h5{
+    padding: 20px 0px 10px 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+div.widget-CustomerInfor>div.widget-CustomerInfor-EmailForm,
+div.widget-CustomerInfor>div.widget-CustomerInfor-FirstNameForm,
+div.widget-CustomerInfor>div.widget-CustomerInfor-LastNameForm,
+div.widget-CustomerInfor>div.widget-CustomerInfor-PhoneForm,
+div.widget-CustomerInfor>div.widget-CustomerInfor-CPFForm{
+    /*display:table;*/
+    width:100%;
+    padding:3px 6px;
+}
+div.widget-CustomerInfor>div.widget-CustomerInfor-EmailForm > div,
+div.widget-CustomerInfor>div.widget-CustomerInfor-FirstNameForm > div,
+div.widget-CustomerInfor>div.widget-CustomerInfor-LastNameForm > div,
+div.widget-CustomerInfor>div.widget-CustomerInfor-PhoneForm > div,
+div.widget-CustomerInfor>div.widget-CustomerInfor-CPFForm > div{
+    /*display:table-row;*/
+    width:100%;
+}
+div.widget-CustomerInfor>div.widget-CustomerInfor-EmailForm > div > *,
+div.widget-CustomerInfor>div.widget-CustomerInfor-FirstNameForm > div > *,
+div.widget-CustomerInfor>div.widget-CustomerInfor-LastNameForm > div > *,
+div.widget-CustomerInfor>div.widget-CustomerInfor-PhoneForm > div > *,
+div.widget-CustomerInfor>div.widget-CustomerInfor-CPFForm > div > *{
+    /*display:table-cell;
+    width:100%;*/
+}
+div.widget-CustomerInfor>div.widget-CustomerInfor-EmailForm > div > .error-message,
+div.widget-CustomerInfor>div.widget-CustomerInfor-FirstNameForm > div > .error-message,
+div.widget-CustomerInfor>div.widget-CustomerInfor-LastNameForm > div > .error-message,
+div.widget-CustomerInfor>div.widget-CustomerInfor-PhoneForm > div > .error-message,
+div.widget-CustomerInfor>div.widget-CustomerInfor-CPFForm > div > .error-message{
+    float:right;
+    white-space:nowrap;
+    color:red;
+}
+div.widget-CustomerInfor>div.widget-CustomerInfor-EmailForm input,
+div.widget-CustomerInfor>div.widget-CustomerInfor-FirstNameForm input,
+div.widget-CustomerInfor>div.widget-CustomerInfor-LastNameForm input,
+div.widget-CustomerInfor>div.widget-CustomerInfor-PhoneForm input,
+div.widget-CustomerInfor>div.widget-CustomerInfor-CPFForm input{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 36px;
+    margin: 0;
+    padding: 5px 9px;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    background-color: #fefefe;
+    box-shadow: inset 0 1px 2px rgba(10,10,10,0.1);
+    font-size: 14px;
+    font-weight: normal;
+    color: #0a0a0a;
+    transition: box-shadow .5s,border-color .25s ease-in-out;
+    line-height: 1.15;
+    appearance: none;
+}
+div.widget-CustomerInfor>div.widget-CustomerInfor-PhoneForm .intl-tel-input{
+    width:100%;
+}

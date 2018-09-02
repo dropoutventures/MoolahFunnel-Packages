@@ -1,0 +1,31 @@
+/*nav*/
+.navigation{
+	padding: 10px 0;
+}
+.navigation .container{
+	display: flex;
+	align-items: center;
+}
+.navigation .container .tapnchargelogo img{
+	max-width: 180px;
+}
+.navigation .container .tapnchargelogo, .navigation .container .tapncharge-phone{
+	width: 50%;
+}
+.navigation .container .tapncharge-phone{
+	color: #37B6C6;
+    font-size: 20px;
+    text-align: right;
+}
+.navigation .container .tapncharge-phone span{
+	color: #37B6C6;
+}
+@media only screen and (max-width:600px){
+	.navigation .container .tapnchargelogo{
+		width: 100%;
+		text-align: center;
+	}
+	.navigation .container .tapncharge-phone{
+		display: none;
+	}
+}

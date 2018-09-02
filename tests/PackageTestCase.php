@@ -1,8 +1,8 @@
 <?php
 
-namespace Vendor\Package\Tests;
+namespace Vendor\WirelessCharger\Tests;
 
-use Vendor\Package\PackageServiceProvider;
+use Vendor\WirelessCharger\PackageServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 abstract class PackageTestCase extends TestCase

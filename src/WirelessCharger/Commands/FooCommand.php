@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\Package\Commands;
+namespace Vendor\WirelessCharger\Commands;
 
 use Illuminate\Console\Command;
 

@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,600,900);
+.loadingMessageConatinerWrapper {
+    font-family: Roboto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: white;
+    z-index: 10000;
+}
+.loadingMessageConatinerWrapper .counter {
+    text-align: center;
+    margin: auto;
+}
+.loadingMessageConatinerWrapper .counter .messageConatiner {
+    color: #363636;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.loadingMessageConatinerWrapper .counter .bar {
+    margin: 0;
+    background: #ccea1e;
+    height: 12px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    display: block;
+    height: 100%;
+        -webkit-border-top-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+            -moz-border-radius-topright: 8px;
+        -moz-border-radius-bottomright: 8px;
+                border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+        -webkit-border-top-left-radius: 20px;
+        -webkit-border-bottom-left-radius: 20px;
+            -moz-border-radius-topleft: 20px;
+            -moz-border-radius-bottomleft: 20px;
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+    
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #ccea1e),
+        color-stop(1, #ccea1e)
+        );
+    background-image: -moz-linear-gradient(
+        center bottom,
+        #ccea1e 37%,
+        #ccea1e 69%
+        );
+    -webkit-box-shadow: 
+        inset 0 2px 9px  rgba(255,255,255,0.3),
+        inset 0 -2px 6px rgba(0,0,0,0.4);
+    -moz-box-shadow: 
+        inset 0 2px 9px  rgba(255,255,255,0.3),
+        inset 0 -2px 6px rgba(0,0,0,0.4);
+    box-shadow: 
+        inset 0 2px 9px  rgba(255,255,255,0.3),
+        inset 0 -2px 6px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+}
+.loadingMessageConatinerWrapper .counter .bar:after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-image: 
+        -webkit-gradient(linear, 0 0, 100% 100%, 
+            color-stop(.25, rgba(255, 255, 255, .2)), 
+            color-stop(.25, transparent), color-stop(.5, transparent), 
+            color-stop(.5, rgba(255, 255, 255, .2)), 
+            color-stop(.75, rgba(255, 255, 255, .2)), 
+            color-stop(.75, transparent), to(transparent)
+        );
+    background-image: 
+        -moz-linear-gradient(
+            -45deg, 
+            rgba(255, 255, 255, .2) 25%, 
+            transparent 25%, 
+            transparent 50%, 
+            rgba(255, 255, 255, .2) 50%, 
+            rgba(255, 255, 255, .2) 75%, 
+            transparent 75%, 
+            transparent
+        );
+    z-index: 1;
+    -webkit-background-size: 50px 50px;
+    -moz-background-size: 50px 50px;
+    -webkit-animation: move 2s linear infinite;
+        -webkit-border-top-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+            -moz-border-radius-topright: 8px;
+        -moz-border-radius-bottomright: 8px;
+                border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+        -webkit-border-top-left-radius: 20px;
+        -webkit-border-bottom-left-radius: 20px;
+            -moz-border-radius-topleft: 20px;
+            -moz-border-radius-bottomleft: 20px;
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+    overflow: hidden;
+}
+.loadingMessageConatinerWrapper .counter .baroutter {
+    background: #d4d9de;
+    height: 12px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    overflow: hidden;
+}
+.loadingMessageConatinerWrapper .counter {
+    position: relative;
+    max-width: 480px;
+    width: 90%;
+}
+@keyframes move {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 50px 50px;
+    }
+}
+.loadingloadingMessageConatinerWrapper .counter .bar:after {
+    animation: move 2s linear infinite;
+    -webkit-animation: move 2s linear infinite;
+}

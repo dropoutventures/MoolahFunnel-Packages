@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+body{
+	position: relative;
+	min-height: 100vh;
+}
+h1{
+	font-family: Roboto, sans-serif;
+	color: #69B7C2;
+	font-size: 24px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #69B7C2;
+    font-weight: normal;
+}
+h4{
+	color: #4E4E4E;	
+	font-family: Roboto, sans-serif;
+	font-size: 18px;	
+	margin-bottom: 20px;
+}
+h4 strong{
+	font-weight: 500;
+}
+p{	
+	font-family: Roboto, sans-serif;
+	color: #4E4E4E;
+	font-size: 16px;	
+	line-height: 22px;
+	margin-bottom: 20px;
+}
+a{
+	color: #4E4E4E;
+	text-decoration: none;
+}
+
+/*header*/
+.tapnchargelogo {
+    padding: 10px 0px;
+}
+.tapnchargelogo img{
+    max-width: 180px;
+}
+.header{
+    position: relative;
+    box-shadow: 0px 3px 10px #ccc;
+}
+@media only screen and (max-width:992px){
+	.tapnchargelogo {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width:767px){
+	.tapnchargelogo {
+		text-align: center;
+	}
+}
+/*section1*/
+.section1{
+	margin-bottom: 150px;
+}
+.section1 .container{
+	display: flex;
+	justify-content: space-around;
+}
+
+.section1 .row{
+	width: 60%;
+	padding: 25px;
+}
+.section1 .tapncharge-term{
+	width: 40%;
+}
+.section1-content > p:nth-of-type(even){
+	margin-bottom: 40px;
+}
+
+.contact-email p:nth-of-type(odd){
+	margin-top: 40px;
+	margin-bottom: 0;
+}
+.contact-email h4:nth-of-type(odd){
+	margin-bottom: 0;
+}
+@media only screen and (max-width: 1200px){
+	.section1{
+		margin-bottom: 0;
+	}
+
+}
+@media (max-width: 767px) {
+	.section1 .container{
+		flex-flow: row wrap;
+		justify-content: center;
+		padding: 0;
+	}
+    .section1 .row{
+		width: 100%;
+		/*padding: 25px;*/
+		padding: 0px;
+	}
+	.section1 .section-header{
+		padding: 0;
+	}
+	.section1 .section-header h1{
+		padding-left:15px;
+	}
+	.section1 .tapncharge-term{
+		width: 100%;
+		padding-top: 0;
+		margin-bottom: 60px;
+	}
+	.contact-email p:nth-of-type(odd){
+		margin-top: 10px;
+	}
+	.contact-email p{
+		margin-bottom: 0;
+	}
+}
+
+
+/*footer*/
+footer{
+	background: radial-gradient(circle, #7BCCD6 0%, #233F41 100%);
+	padding: 40px 15px;
+	width: 100%;
+}
+
+footer div.Footer div.footer-menu div.FootMenuItem:before {
+	color: #ffffff;
+}
+footer a:hover{
+	text-decoration: none;
+}
+footer > div.container > div.row > div.FootMenuItem:before {
+    color: #fff;
+}
+@media only screen and (max-width:992px){
+	footer > .Footer > div.row > div.footer-affiliate:before{
+        display: none;
+    }
+}
+.Footer > div.row > div.FootMenuItem > a {
+    font-size: 12px;
+    color: #fff;
+}
+
+/*@media (min-width: 1200px) {
+	footer{
+		position: fixed;
+		left: 0;
+		bottom: 0;
+	}
+}*/

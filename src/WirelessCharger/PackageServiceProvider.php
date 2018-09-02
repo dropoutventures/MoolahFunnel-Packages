@@ -1,9 +1,9 @@
 <?php 
 
-namespace Vendor\Package;
+namespace Vendor\WirelessCharger;
 
 use Illuminate\Support\ServiceProvider;
-use Vendor\Package\Commands\FooCommand;
+use Vendor\WirelessCharger\Commands\FooCommand;
 
 /**
  * A Laravel 5.5 package boilerplate
@@ -20,7 +20,7 @@ class PackageServiceProvider extends ServiceProvider {
      * 
      * @var  string
      */
-    protected $packageName = 'package';
+    protected $packageName = 'WirelessCharger';
 
     /**
      * A list of artisan commands for your package
@@ -54,7 +54,7 @@ class PackageServiceProvider extends ServiceProvider {
 
         // Register your asset's publisher
         $this->publishes([
-            __DIR__.'/../public' => public_path('vendor/'.$this->packageName),
+            __DIR__.'/../public' => public_path('funnels/'.$this->packageName),
         ], 'public');
 
         // Publish your seed's publisher

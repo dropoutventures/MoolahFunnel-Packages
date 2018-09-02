@@ -2,7 +2,7 @@
 
 namespace Vendor\Packages\Tests\Feature;
 
-use Vendor\Package\Tests\PackageTestCase;
+use Vendor\WirelessCharger\Tests\PackageTestCase;
 
 class ExampleTest extends PackageTestCase
 {

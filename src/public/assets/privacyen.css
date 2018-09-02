@@ -1,0 +1,81 @@
+@import url('header.css');
+h1{
+	font-family: Roboto, sans-serif;
+	color: #69B7C2;
+	font-size: 24px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #69B7C2;
+	margin-top: 70px;
+}
+.section-header:first-of-type h1{
+	margin-top: 10px;
+}
+h4{
+	color: #4E4E4E;	
+	font-family: Roboto, sans-serif;
+	font-size: 18px;	
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+.section1-content > p:first-of-type > h4{
+	margin-top: 0;
+}
+h4 strong{
+	font-weight: 500;
+}
+p{	
+	font-family: Roboto, sans-serif;
+	color: #4E4E4E;
+	font-size: 16px;	
+	line-height: 22px;
+	margin-bottom: 20px;
+}
+a{
+	text-decoration: none;
+}
+/*header*/
+.tapnchargelogo {
+    padding: 10px 0px;
+}
+.tapnchargelogo img{
+    max-width: 180px;
+}
+.header{
+    position: relative;
+    box-shadow: 0px 3px 10px #ccc;
+}
+@media only screen and (max-width:992px){
+	.tapnchargelogo {
+		text-align: center;
+	}
+}
+
+/*section1*/
+.section1{
+    padding: 20px 0 60px;
+}
+.seciton1 h1{
+	font-family: Roboto, sans-serif;
+	color: #69B7C2;
+	font-size: 24px;
+}
+/*footer*/
+footer{
+	background: radial-gradient(circle, #7BCCD6 0%, #233F41 100%);
+	padding: 40px 15px;
+}
+
+footer div.Footer div.footer-menu div.FootMenuItem:before {
+	color: #ffffff;
+}
+footer a:hover{
+	text-decoration: none;
+}
+footer > div.container > div.row > div.FootMenuItem:before {
+    color: #fff;
+}
+.Footer > div.row > div.FootMenuItem > a {
+    font-size: 12px;
+    color: #fff;
+}

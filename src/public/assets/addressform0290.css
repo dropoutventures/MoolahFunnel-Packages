@@ -1,0 +1,71 @@
+div.widget-AddressForm{
+    padding:10px 6px;
+}
+div.widget-AddressForm > div.widget-AddressForm-Title{
+    padding:6px;
+}
+div.widget-AddressForm > div.widget-AddressForm-Title > h5{
+    margin:0px;
+    font-weight:600;
+}
+div.widget-AddressForm > div.widget-AddressForm-Container{
+    width:100%;
+    padding:0px;
+}
+div.widget-AddressForm > div.widget-AddressForm-Container > div{
+    width:100%;
+    padding:0px 6px;
+}
+div.widget-AddressForm > div.widget-AddressForm-Container > div.widget-AddressForm-Others{
+    display:table;
+}
+div.widget-AddressForm > div.widget-AddressForm-Container > div > div.widget-AddressForm-Province,
+div.widget-AddressForm > div.widget-AddressForm-Container > div > div.widget-AddressForm-Zipcode{
+    display:table-cell;
+    width:50%;
+    padding-right:6px;
+    padding-left:0px;
+}
+div.widget-AddressForm > div.widget-AddressForm-Container > div > div.widget-AddressForm-Zipcode{
+    padding-right:0px;
+    padding-left:6px;
+}
+div.widget-AddressForm > div.widget-AddressForm-Container  div > span{
+    width:100%;
+    display:block;
+    padding:0px;
+    padding:6px 0px 3px 0px;
+}
+div.widget-AddressForm > div.widget-AddressForm-Container div > input,
+div.widget-AddressForm > div.widget-AddressForm-Container div > select{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 36px;
+    margin: 0px;
+    padding: 5px 9px;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    background-color: #fefefe;
+    box-shadow: inset 0 1px 2px rgba(10,10,10,0.1);
+    font-size: 14px;
+    font-weight: normal;
+    color: #0a0a0a;
+    transition: box-shadow .5s,border-color .25s ease-in-out;
+    line-height: 1.15;
+    appearance: none;
+}
+div.widget-AddressForm > div.widget-AddressForm-Container .intl-tel-input{
+    width:100%;
+}
+div.widget-AddressForm > div.widget-AddressForm-Container input[type=number]::-webkit-inner-spin-button, 
+div.widget-AddressForm > div.widget-AddressForm-Container input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+div.widget-AddressForm >div.widget-AddressForm-Container .error-message{
+    float:right;
+    white-space:nowrap;
+    color:red;
+    /*font-weight:700;*/
+}

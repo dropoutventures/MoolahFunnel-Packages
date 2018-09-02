@@ -1,0 +1,108 @@
+div.widget-CreditCardForm{
+    padding:10px 6px;
+}
+div.widget-CreditCardForm > div.widget-CreditCardForm-Title{
+    padding:6px;
+}
+div.widget-CreditCardForm > div.widget-CreditCardForm-Title > h5{
+    margin:0px;
+    font-weight:600;
+}
+div.widget-CreditCardForm > div.widget-CreditCardForm-container{
+    padding:0px;
+    width:100%;
+    display:table;
+}
+div.widget-CreditCardForm > div.widget-CreditCardForm-container > div.widget-CreditCardForm-CreditCardNumber,
+div.widget-CreditCardForm > div.widget-CreditCardForm-container > div.widget-CreditCardForm-NameOnCard,
+div.widget-CreditCardForm > div.widget-CreditCardForm-container > div.widget-CreditCardForm-Others{
+    width:100%;
+    padding:6px;
+}
+div.widget-CreditCardForm > div.widget-CreditCardForm-container > div.widget-CreditCardForm-Others{
+    display:table;
+    padding:0px;
+}
+div.widget-CreditCardForm > div.widget-CreditCardForm-container div.widget-CreditCardForm-ExpiryDate,
+div.widget-CreditCardForm > div.widget-CreditCardForm-container div.widget-CreditCardForm-CVV {
+    width:50%;
+    padding:6px;
+    display:table-cell;
+}
+div.widget-CreditCardForm > div.widget-CreditCardForm-container div.widget-CreditCardForm-CreditCardNumber > span,
+div.widget-CreditCardForm > div.widget-CreditCardForm-container div.widget-CreditCardForm-NameOnCard > span,
+div.widget-CreditCardForm > div.widget-CreditCardForm-container div.widget-CreditCardForm-ExpiryDate > span,
+div.widget-CreditCardForm > div.widget-CreditCardForm-container div.widget-CreditCardForm-CVV > span {
+    display:table-cell;
+    display:block;
+    width:100%;
+    margin:0px;
+    padding:3px 0px 3px 0px;
+    font-size:90%;
+    font-weight:normal;
+    color:#0a0a0a;
+}
+div.widget-CreditCardForm > div.widget-CreditCardForm-container div.widget-CreditCardForm-CreditCardNumber > div > input,
+div.widget-CreditCardForm > div.widget-CreditCardForm-container div.widget-CreditCardForm-NameOnCard > div > input,
+div.widget-CreditCardForm > div.widget-CreditCardForm-container div.widget-CreditCardForm-ExpiryDate > div > input,
+div.widget-CreditCardForm > div.widget-CreditCardForm-container div.widget-CreditCardForm-CVV > div > input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 36px;
+    margin: 0;
+    padding: 5px 9px;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    background-color: #fefefe;
+    box-shadow: inset 0 1px 2px rgba(10,10,10,0.1);
+    font-size: 14px;
+    font-weight: normal;
+    color: #0a0a0a;
+    transition: box-shadow .5s,border-color .25s ease-in-out;
+    line-height: 1.15;
+    appearance: none;
+}
+div.widget-CreditCardForm > div.widget-CreditCardForm-container div.widget-CreditCardForm-CreditCardNumber > div,
+div.widget-CreditCardForm > div.widget-CreditCardForm-container div.widget-CreditCardForm-CVV > div{
+    position:relative;
+}
+div.widget-CreditCardForm > div.widget-CreditCardForm-container div.widget-CreditCardForm-CreditCardNumber > div > i,
+div.widget-CreditCardForm > div.widget-CreditCardForm-container div.widget-CreditCardForm-CVV > div > i{
+    position:absolute;
+    top:12px;
+    right:8px;
+}
+div.widget-CreditCardForm > div.widget-CreditCardForm-container div.widget-CreditCardForm-CreditCardNumber > div > input,
+div.widget-CreditCardForm > div.widget-CreditCardForm-container div.widget-CreditCardForm-ExpiryDate > div > input,
+div.widget-CreditCardForm > div.widget-CreditCardForm-container div.widget-CreditCardForm-CVV > div > input {
+    letter-spacing:1px;
+}
+div.widget-CreditCardForm > div.widget-CreditCardForm-container div.widget-CreditCardForm-NameOnCard > div > input{
+    text-transform: uppercase;
+}
+div.widget-CreditCardForm > div.widget-CreditCardForm-container > div.widget-CreditCardForm-ExpiryDate > div,
+div.widget-CreditCardForm > div.widget-CreditCardForm-container > div.widget-CreditCardForm-CVV > div {
+    display:table;
+    width:100%;
+}
+div.widget-CreditCardForm > div.widget-CreditCardForm-container > div.widget-CreditCardForm-ExpiryDate > div > select{
+    width:50%;
+    display:table-cell;
+}
+div.widget-CreditCardForm > div.widget-CreditCardForm-container > div.widget-CreditCardForm-CVV > div > input{
+    display:table-cell;
+}
+div.widget-CreditCardForm span.error-message{
+    color: red;
+    font-size: 14px;
+    /*font-weight: bold;*/
+}
+div.widget-CreditCardForm i.cvv-help{
+    cursor:pointer;
+}
+div.widget-CreditCardForm > div.widget-CreditCardForm-container input[type=number]::-webkit-inner-spin-button, 
+div.widget-CreditCardForm > div.widget-CreditCardForm-container input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

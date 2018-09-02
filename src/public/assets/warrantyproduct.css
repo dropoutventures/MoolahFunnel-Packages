@@ -1,0 +1,40 @@
+.bounceRight {
+    -webkit-animation: bounceRight 2s infinite;
+    animation: bounceRight 2s infinite;
+}
+div.widget-Warranty{
+    margin:0px;
+    padding:6px;
+}
+div.widget-Warranty > div.widget-Warranty-Container{
+    border:1px solid #00bff3;
+    padding:9px;
+    background-color:#f6f6f6;
+    width:100%;
+}
+div.widget-Warranty > div.widget-Warranty-Container > div.widget-Warranty-Header{
+    background-color:#989797;
+    border-radius:3px;
+    padding:6px;
+    color:#fff;
+    text-align:center;
+    height:36px;
+}
+div.widget-Warranty > div.widget-Warranty-Container > div.widget-Warranty-Header > *{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    height: 24px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+div.widget-Warranty > div.widget-Warranty-Container > div.widget-Warranty-Header > label > img{
+    vertical-align: middle;
+    display:block;
+    padding-top:4px;
+}
+div.widget-Warranty > div.widget-Warranty-Container > div.widget-Warranty-Body{
+    padding:12px 0px;
+    font-size:85%;
+    font-weight:600;
+}

@@ -1,0 +1,76 @@
+html,body{
+    width:100%;
+    height:100%;
+    padding:0px;
+    margin:0px;
+}
+
+.marginCenter {
+  margin-right: auto;
+  margin-left: auto;
+  float: none; 
+}
+
+
+button {
+  cursor: pointer !important; }
+
+.input-error {
+  background-color: #f9ecea !important;
+  border: 1px solid #cc4b37 !important; }
+
+.error-message {
+  color: #cc4b37 !important; }
+
+header > div.container > div.row {
+  padding: 10px 0px 20px 0px; }
+  header > div.container > div.row > div > span {
+    padding: 12px; }
+    header > div.container > div.row > div > span > a {
+      line-height: inherit;
+      color: #2ba6cb;
+      text-decoration: none;
+      cursor: pointer; }
+
+Footer {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  /*margin-bottom: 80px;*/ }
+  Footer > div.container > div.row {
+    text-align: center;
+    margin-bottom: 10px; }
+    Footer > div.container > div.row > div.FootSocial {
+      display: inline-block;
+      width: 45px; }
+    Footer > div.container > div.row > div.FootMenuItem {
+      display: inline-block; }
+      Footer > div.container > div.row > div.FootMenuItem > a {
+        text-align: center;
+        display: inline-block; }
+    Footer > div.container > div.row > div.FootMenuItem:before {
+      content: "|";
+      color:#8a7f7f;}
+    Footer > div.container > div.row > div.FootMenuItem:first-child:before {
+      content: ""; }
+    Footer > div.container > div.row > div.FootLogo {
+      display: inline-block; }
+
+#_layFullpage{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255,255,255,1);
+    z-index: 9999;
+}
+
+#_layFullpage>img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 150px;
+}
+/*# sourceMappingURL=site.css.map */

@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600');
+/*general*/
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+.extraText{
+    /*width: 55%;*/
+    font-size: 14px;
+    margin: 0 0 10px;
+    line-height: 16px;
+    padding-right: 30px;
+    color: #121212;
+}
+@media only screen and (min-width:768px){
+  .extraText{
+        padding-right: 0;
+        width: 270px;
+    }
+}
+.section-header,
+.section-subheader,
+.section-text{
+  padding: 0;
+}
+/*general*/
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+section > .row,
+section > .container > .row{
+  margin: 0;
+}
+
+.section-header h1{
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 55px;
+  color: #37B6C6;
+  margin-top: 0;
+}
+.section-subheader h1{
+  color: #3296A3;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.section-subheader p{
+  color: #3296A3;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.section-h3 h1{
+  color: #4E4E4E;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 50px 0;
+}
+
+.section-text p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 0px;
+}
+.edit-text-header p{
+  margin-bottom: 25px;
+}
+.margin-title{
+    margin-bottom: 20px;
+}
+@media only screen and (min-width:768px){
+  .section1 > .container > .row,
+  .section2 > .container > .row{
+    width: 600px;
+    margin: 0 auto;
+  }
+  .section-header h1{
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width:992px){
+  .section1 > .container > .row{
+    width: 900px;
+  }
+}
+/*nav*/
+.navigation{
+  padding: 10px 0;
+  box-shadow: 0px 3px 10px #ccc;
+}
+.tapnchargelogo img{
+  max-width: 180px;
+}
+.navigation .container{
+  display: flex;
+  align-items: center;
+}
+.navigation .container .tapnchargelogo{
+  width: 100%;
+  text-align: center;
+}
+.navigation .container .tapncharge-phone{
+  display: none;
+}
+.navigation .container .tapncharge-phone{
+  color: #37B6C6;
+  font-size: 20px;
+  text-align: right;
+}
+.navigation .container .tapncharge-phone span{
+	color: #37B6C6;
+}
+@media only screen and (min-width:768px){
+  .navigation .container .tapnchargelogo, .navigation .container .tapncharge-phone{
+    width: 50%;
+  }
+  .navigation .container .tapnchargelogo{
+    text-align: left;
+  }
+
+  .navigation .container .tapncharge-phone{
+    display: block;
+  }
+}
+
+/*section1*/
+.section1{
+    padding: 10px 0;
+}
+.section1 .section-text p {
+    font-size: 16px
+    line-height: 21px;
+}
+@media only screen and (min-width:768px){
+    .section1{
+        margin-top: 30px;
+        padding: 20px 0;
+    }
+    .section1 .section-text p {
+        font-size: 18px;
+        line-height: 23px;
+        padding: 0 40px;
+    }
+}
+@media only screen and (min-width:992px){
+    .section1 .section-text p {
+        font-size: 20px;
+        line-height: 27px;
+    }
+}
+
+/*section2-form section*/
+.section2 {
+  background: radial-gradient(circle, #FFFFFF 0%, #FDFDFC 57.89%, #F7FAFB 100%);
+  padding: 20px 0px;
+  min-height: 50vh;
+}
+.section2 > .container {
+  padding: 0;
+}
+.section2 > .container > .row{
+  /*background-color: gray;*/
+  padding: 20px 15px;
+}
+.section2 .section-text p {
+    /*line-height: 21px;*/
+}
+.first-name>div, .last-name>div, .email>div, .phone>div, .skype>div{
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.section2 input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+.section2 .text-area p{
+  font-size: 16px;
+  line-height: normal;
+
+}
+.section2 textarea{
+  width: 100%!important;
+  max-width: 100%;
+  min-height: 100px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+.section2 .error-message{
+  display: none;
+}
+.section2 label {
+    color: #121212;
+    font-weight: normal;
+}
+
+button::before{
+  content: "";
+  position: absolute;
+  background: url(btn-arrow.png) no-repeat;
+  background-size: 12px 20px;
+  background-position: 0px 50%;
+  width: 40px;
+  height: 100%;
+  top: 0;
+  left: 20px;
+  border-right: 2px solid #33b401;
+}
+button{
+  border: 1px solid #70C93A;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  background: linear-gradient(to bottom, #b8f100 0%,#62d300 51%,#1fb900 100%);
+  color: #343434;
+  padding: 15px 10px 15px 40px;
+  position: relative;
+}
+.tapncharge-btn button{
+  border: 1px solid #70C93A;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  background: linear-gradient(to bottom, #b8f100 0%,#62d300 51%,#1fb900 100%);
+  color: #343434;
+  padding: 0;
+  position: relative;
+}
+
+.tapncharge-btn a{
+  display: block;
+  color: #343434;
+}
+
+.tapncharge-btn button span {
+  position: relative;
+  padding: 15px 10px;
+  display: block;
+  margin-left: 60px;
+  line-height: normal;
+}
+.tapncharge-btn button::before{
+  content: "";
+  position: absolute;
+  background: url(btn-arrow.png) no-repeat;
+  background-size: 12px 20px;
+  background-position: 0px 50%;
+  width: 40px;
+  height: 100%;
+  top: 0;
+  left: 20px;
+  border-right: 2px solid #33b401;
+}
+.section2 > .container> .affiliate-thankyou{
+  padding-top: 0;
+  display: none;
+}
+@media only screen and (min-width:768px){
+    .section2 {
+        padding: 30px 0px;
+        background: none;
+    }
+    .section2 > .container > .row{
+        background: radial-gradient(circle, #FFFFFF 0%, #fafafa 84.08%, #f8f8f8 100%);
+        padding: 30px 70px;
+    }
+    .section2 .section-text p {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 0 60px;
+    }
+    .section2 .text-area p {
+        width: 70%;
+    }
+}
+@media only screen and (min-width:992px){
+    .section2 .section-subheader h1{
+        font-size: 20px;
+        
+    }
+    .section2 > .container > .row{
+        padding: 30px 0px;
+    }
+    .section2 > .container > .first-row{
+        width: 460px;
+    }
+    .section2 .affiliate-form{
+        padding: 0 60px;
+    }
+}
+
+
+
+/*footer*/
+footer{
+  background: radial-gradient(circle, #7BCCD6 0%, #233F41 100%);
+  padding: 40px 15px;
+}
+footer a:hover{
+  text-decoration: none;
+}
+
+.footer > .Footer > div.row > div.FootMenuItem:before {
+  color: #fff;
+}
+
+.footer > .Footer > div.row > div.FootMenuItem > a {
+  font-size: 12px;
+  color: #fff;
+}
+@media only screen and (max-width:992px){
+	footer > .Footer > div.row > div.footer-affiliate:before{
+        display: none;
+    }
+}
