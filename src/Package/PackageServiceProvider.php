@@ -54,7 +54,7 @@ class PackageServiceProvider extends ServiceProvider {
 
         // Register your asset's publisher
         $this->publishes([
-            __DIR__.'/../public' => public_path('vendor/'.$this->packageName),
+            __DIR__.'/../public' => public_path('funnels/'.$this->packageName),
         ], 'public');
 
         // Publish your seed's publisher
