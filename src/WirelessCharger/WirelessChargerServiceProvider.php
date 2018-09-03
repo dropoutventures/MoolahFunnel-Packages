@@ -28,7 +28,7 @@ class WirelessChargerServiceProvider extends ServiceProvider {
      * @var array
      */
     protected $commands = [
-        FooCommand::class,
+
     ];
 
     /**
