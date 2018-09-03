@@ -10,7 +10,7 @@ use Vendor\WirelessCharger\Commands\FooCommand;
  *
  * @author: Rémi Collin (remi@code16.fr)
  */
-class PackageServiceProvider extends ServiceProvider {
+class WirelessChargerServiceProvider extends ServiceProvider {
 
     /**
      * This will be used to register config & view in 

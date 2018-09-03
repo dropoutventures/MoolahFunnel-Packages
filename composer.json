@@ -29,7 +29,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Vendor\\WirelessCharger\\ServiceProvider"
+                "Vendor\\WirelessCharger\\WirelessChargerServiceProvider"
             ]
         }
     },
