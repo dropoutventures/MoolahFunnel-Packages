@@ -1,5 +1,5 @@
 {
-    "name": "dropoutventures/moolahfunnel-packages",
+    "name": "dropoutventures/moolahfunnel-WirelessChargers",
     "description": "",
     "keywords": [],
     "homepage": "",
@@ -18,18 +18,18 @@
     },
     "autoload": {
        "psr-4": {
-            "Vendor\\Package\\": "src/WirelessCharger"
+            "Vendor\\WirelessCharger\\": "src/WirelessCharger"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Vendor\\Package\\Tests\\": "tests/"
+            "Vendor\\WirelessCharger\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Vendor\\Package\\ServiceProvider"
+                "Vendor\\WirelessCharger\\ServiceProvider"
             ]
         }
     },
