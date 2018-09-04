@@ -43,29 +43,10 @@ class WirelessChargerServiceProvider extends ServiceProvider {
         // Register Views from your package
         $this->loadViewsFrom(__DIR__.'/../views', $this->packageName);
 
-        // Regiter migrations
-        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
-
-        // Register translations
-        $this->loadTranslationsFrom(__DIR__.'/../lang', $this->packageName);
-        $this->publishes([
-            __DIR__.'/../lang' => resource_path('lang/vendor/'. $this->packageName),
-        ]);
-
         // Register your asset's publisher
         $this->publishes([
             __DIR__.'/../public' => public_path('funnels/'.$this->packageName),
         ], 'public');
-
-        // Publish your seed's publisher
-        $this->publishes([
-            __DIR__.'/../database/seeds/' => base_path('/database/seeds')
-        ], 'seeds');
-
-        // Publish your config
-        $this->publishes([
-            __DIR__.'/../config/config.php' => config_path($this->packageName.'.php'),
-        ], 'config');
 
         if ($this->app->runningInConsole()) {
             $this->commands($this->commands);
@@ -79,9 +60,6 @@ class WirelessChargerServiceProvider extends ServiceProvider {
      */
     public function register()
     {
-        $this->mergeConfigFrom(
-            __DIR__.'/../config/config.php', $this->packageName
-        );
 
     }
 
